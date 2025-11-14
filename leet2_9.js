@@ -1,12 +1,14 @@
-// function isPalindrome(x) {
-//   if (x < 0) return false;
+function isPalindrome(x) {
+  if (x < 0) return false;
 
-//   const str = x.toString();
+  const str = x.toString();
 
-//   const reversed = str.split('').reverse().join('');
+  const reversed = str.split('').reverse().join('');
 
-//   return str === reversed;
-// }
+  return str === reversed;
+}
+
+//another way
 
 function check (palindrome) {
     palindrome = palindrome.toString();
